@@ -230,13 +230,13 @@ section .title:after{
 /*about section styling*/
 
 .about .title::after{
-    content:"Who Am I";
+    content:"Career Goals";
 }
 .about .about-content .left{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
+    height: 490px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
@@ -261,7 +261,7 @@ section .title:after{
 
 .about .about-content .right p{
     text-align: justify;
-    
+    margin-top: -12px;
 }
 
 .about .about-content .right a{
@@ -297,7 +297,7 @@ section .title:after{
 .teams .title::after{
     color: #dc2e23;
     background: #12032d;
-    content: "What I Want";
+    content: "Future Career";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -399,21 +399,46 @@ section .title:after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 75%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 70%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 70%;
 }
+
 .skills-content .right .mysql::before{
     width: 70%;
 }
 
+.skills-content .right .reactnative::before{
+    width: 75%;
+}
+
+.skills-content .right .bootstrap::before{
+    width: 70%;
+}
+
+.skills-content .right .quality::before{
+    width: 70%;
+}
+
+.skills-content .right .trouble::before{
+    width: 75%;
+}
+
+.skills-content .right .microsoft::before{
+    width: 80%;
+}
+
+.skills-content .right .github::before{
+    width: 55%;
+}
+
 /* teams section styling */
 .teams .title::after{
-    content: "My Project";
+    content: "My Work Exp ";
 }
 .teams .carousel .card{
     background: #190342;
@@ -497,7 +522,7 @@ section .title:after{
     align-items: center;
 }
 .contact .contact-content .row .info{
-    margin-left: 30px;
+    margin-left: 25px;
 }
 .contact .contact-content .row i{
     font-size: 25px;
@@ -509,6 +534,13 @@ section .title:after{
 .contact .contact-content .info .sub-title{
     color: #333;
 }
+
+.contact .right{
+    display: flex;
+    margin-top: 45px;
+}
+
+/*
 .contact .right form .fields{
     display: flex;
 }
@@ -523,7 +555,7 @@ section .title:after{
     width: 100%;
 }
 .contact .right form .name{
-    margin-right: 10px;
+    margin-right: 9px;
 }
 .contact .right form .email{
     margin-left: 10px;
@@ -574,6 +606,7 @@ section .title:after{
     background: none;
     border: 2px solid #dc2e23;
 }
+*/
 
 /* footer section styling */
 footer{

@@ -27,14 +27,14 @@ $(window).scroll(function(){
 
     //typing animation script
     var typed = new Typed(".typing", {
-        strings: ["BSIT Student", "Future", "Web Developer", "Networking"],
+        strings: ["Fresh Grad I.T Student", "Future", "Web Developer", "Network Engineer", "System Administrator", "IT Staff", "Mobile App Dev", "Q/A Tester"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["BSIT Student", "Future", "Web Developer", "Networking"],
+        strings: ["Fresh Grad I.T Student", "Future", "Web Developer", "Network Engineer", "System Administrator", "IT Staff", "Mobile App Dev", "Q/A Tester"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
