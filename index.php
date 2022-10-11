@@ -286,7 +286,7 @@
                         <div class="sub-title">Angelo Baclaan</div>
                     </div>
                 </div>
-                
+
                 <div class="row">
                     <i class="fas fa-map-marker-alt"></i>
                     <div class="info">
@@ -296,66 +296,59 @@
                 </div>
 
                 <div class="row">
-                    <i class="fas fa-map-marker-alt"></i>
+                    <i class="fas fa-envelope"></i>
                     <div class="info">
-                        <div class="head">LinkedIn</div>
-                        <div class="sub-title"> <a href="www.linkedin.com/in/angelobaclaan-38981a203"> www.linkedin.com/in/angelobaclaan-38981a203</a></div>
+                        <div class="head">Email</div>
+                        <div class="sub-title">angelobaclaan03@gmail.com</div>
                     </div>
                 </div>
 
-            </div>
-        </div>
-
-        <div class="column right"> 
-                <div class="icons">
-                    <div class="row">
-                        <i class="fas fa-envelope"></i>
-                        <div class="info">
-                            <div class="head">Email</div>
-                            <div class="sub-title">angelobaclaan03@gmail.com</div>
-                        </div>
+                <div class="row">
+                    <i class="fas fa-link"></i>
+                    <div class="info">
+                        <div class="head">LinkedIn</div>
+                        <div class="sub-title"> <a href="www.linkedin.com/in/angelobaclaan-38981a203"> www.linkedin.com/in/angelobaclaan-38981a203</a></div>
                     </div>
-    
-                    <div class="row">
+                </div>
+
+                <div class="row">
                         <i class="fas fa-phone"></i>
                         <div class="info">
                             <div class="head">Phone number</div>
                             <div class="sub-title">+63-977-75151-55  or  09777515155</div>
                         </div>
-                    </div>
+                </div>
+
             </div>
         </div>
-
-    </div>
-</div>
-
-        <!--
         <div class="column right">
             <div class="text">Message Me</div>
-            <form action="#">
+            <form action="mail.php" method="post">
                 <div class="fields">
                     <div class="field name">
-                        <input type="text" placeholder="Name" required>
+                        <input type="text" name="companyname" placeholder="Company Name" required>
                     </div>
-                    <div class="field email">
-                        <input type="email" placeholder="Email" required>
+                </div>
+                <div class="fields">
+                    <div class="field name">
+                        <input type="text" name="email" placeholder="Email Address" required>
                     </div>
                 </div>
                 <div class="field">
-                    <input type="text" placeholder="Subject" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
                 </div>
                 <div class="field textarea">
-                    <textarea cols="30" rows="10" placeholder="Describe Project.." required></textarea>
+                    <textarea cols="30" rows="10" name="describe" placeholder="Job Description" required></textarea>
                 </div>
                 <div class="button">
-                    <button type="submit"><a href="mailto:angelobaclaan03@gmail.com">Send Message</a></button>
+                    <button type="submit">Send Message</button>
                 </div>
             </form>
         </div>
     </div>
 </div>
--->
 </section>
+
 
 
 <!-- footer section start-->

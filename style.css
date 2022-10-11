@@ -535,12 +535,7 @@ section .title:after{
     color: #333;
 }
 
-.contact .right{
-    display: flex;
-    margin-top: 45px;
-}
 
-/*
 .contact .right form .fields{
     display: flex;
 }
@@ -580,10 +575,10 @@ section .title:after{
     width: 170px;
    
 }
-.contact .right form .button a{
+.contact .right form .button {
     color: #fff;
 }
-.contact .right form .button a:hover{
+.contact .right form .button:hover{
     color: #dc2e23;
     background: none;
     border: 2px solid #dc2e23;
@@ -606,7 +601,7 @@ section .title:after{
     background: none;
     border: 2px solid #dc2e23;
 }
-*/
+
 
 /* footer section styling */
 footer{
