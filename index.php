@@ -353,7 +353,7 @@
 
 <!-- footer section start-->
 <footer>
-    <span>Created By <a href="#">Angelo A. Baclaan</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+    <span>Created By <a href="#">Angelo A. Baclaan</a> | <span class="far fa-copyright"></span> 2023 All rights reserved.</span>
 </footer>
 
 
