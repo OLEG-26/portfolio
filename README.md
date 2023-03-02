@@ -9,4 +9,4 @@ Needs Improvements
 
 Attach Skills and Experiences
 
-1. Lasheya LeUm MukmakBim
+1. Lasheya Leumukmakbim
